@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/dialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/btn_style_alert_dialog_background"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/album_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="相 册"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:background="@drawable/button_dra"
+            />
+        <Button
+            android:id="@+id/camera_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="相 机"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:background="@drawable/button_dra"
+            />
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="取 消"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="@drawable/cancel_button_dra"
+            />
+        </LinearLayout>
+
+</RelativeLayout>

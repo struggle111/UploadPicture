@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BottomAnimation" parent="@android:style/Animation">
+        <item name="android:windowExitAnimation">@anim/abc_slide_out_bottom</item>
+        <item name="android:windowEnterAnimation">@anim/abc_slide_in_bottom</item>
+    </style>
+
+    <style name="BottomDialogAnimation" parent="android:Theme.Dialog">
+
+        <item name="android:windowAnimationStyle">@style/BottomAnimation</item>
+
+        <item name="android:windowFrame">@null</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:windowNoTitle">true</item>
+
+        <!--记住这里是windowBackground，不是background-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <item name="android:backgroundDimEnabled">true</item>
+
+    </style>
+
+    <style name="PictureDialogStyle" parent="android:Theme.Dialog">
+
+        <item name="android:windowAnimationStyle">@style/BottomAnimation</item>
+
+        <item name="android:windowFrame">@null</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

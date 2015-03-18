@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    <ImageView
+        android:id="@+id/main_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="#000"
+        />
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="auto_fit"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        android:scrollbars="vertical"
+        ></GridView>
+    <Button
+        android:id="@+id/select_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:text="选 择 图 片"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/upload_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff992e0e"
+        android:text="上 传 图 片"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        />
+
+
+
+</LinearLayout>
